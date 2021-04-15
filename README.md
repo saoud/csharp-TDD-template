@@ -21,7 +21,7 @@ Following "Red, Green, Refactor" Workflow, test for isCar was added in this orde
 
 1. Identify the simplest possible behavior the program must exhibit"
 
-```
+```csharp
 my notes: "If string equals "car" return boolean true"
 ```
 
@@ -29,7 +29,7 @@ my notes: "If string equals "car" return boolean true"
 
 ModelTests/CarDealership.cs
 Note: Typo from previous commit. Change "public class CarDealership" to "public class CarDealershipTest
-```
+```csharp
     [TestClass]
     public class CarDealershipTests
     {
@@ -45,7 +45,7 @@ Note: Typo from previous commit. Change "public class CarDealership" to "public 
 
 TDDcsharp/Models/CarDealership.cs 
 (Nothing has changed. No code added yet)
-```
+```csharp
     public class CarDealership
     {
         public bool isCar(string car)
@@ -63,8 +63,8 @@ a compiler error is not a fail.
 
 4. Implement the behavior with the least amount of code possible
 
-TDDcsharp/Models/CarDealership.cs 
-```
+TDDcsharp/Models/TDD.cs 
+```csharp
     public class CarDealership
     {
         public bool isCar(string car)
@@ -89,7 +89,7 @@ Navigate to TDDchsarp.Tests and run `dotnet test`
 
 1. Identify the simplest possible behavior the program must exhibit"
 
-```
+```csharp
 my notes: 
 "If string equals "car" return boolean true"
 "Other things makeup a car. If strings equals any of "car", "4 wheels", "steering wheel", "brakes" return boolean true
@@ -97,7 +97,7 @@ my notes:
 2. Write a coded test
 
 ModelTests/CarDealership.cs
-```
+```csharp
     [TestClass]
     public class CarDealershipTests
     {
@@ -122,7 +122,7 @@ ModelTests/CarDealership.cs
 
 4. Implement the behavior with the least amount of code possible
 
-```
+```csharp
     public class CarDealership
     {
         public bool isCar(string car)
