@@ -159,7 +159,7 @@ Navigate to TDDchsarp.Tests and run `dotnet test`
     What else can go in my car dealership?
 
     ## License
-* [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+* [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/saoud/csharp-TDD-template/blob/main/LICENSE)
 * Copyright 2021 Saoud Rana
 ## Contact
 [Saoud Rana](mailto:githubissues@saoud.dev)
